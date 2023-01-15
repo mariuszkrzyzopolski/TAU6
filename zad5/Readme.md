@@ -1,1 +1,1 @@
-[![zad5 CI](https://github.com/mariuszkrzyzopolski/TAU6/actions/workflows/zad5.yml/badge.svg)](https://github.com/mariuszkrzyzopolski/TAU6/actions/workflows/zad5.yml) ![obraz](https://user-images.githubusercontent.com/39222705/212502770-415dcf8e-5b7f-48ef-88bf-1b480274466d.png)
+[![zad5 CI](https://github.com/mariuszkrzyzopolski/TAU6/actions/workflows/zad5.yml/badge.svg)](https://github.com/mariuszkrzyzopolski/TAU6/actions/workflows/zad5.yml)
