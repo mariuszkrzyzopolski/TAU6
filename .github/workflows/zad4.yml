@@ -7,6 +7,9 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: zad4
 
     steps:
       - uses: actions/checkout@v3
@@ -17,9 +20,9 @@ jobs:
           distribution: 'temurin'
           cache: maven
       - name: Build with Maven
-        run: mvn -B package --file zad4/pom.xml
+        run: mvn -B package --file pom.xml
       - name: Generate JaCoCo test report
-        run: ./zad4 mvn org.jacoco:jacoco-maven-plugin:prepare-agent test jacoco:report
+        run: mvn org.jacoco:jacoco-maven-plugin:prepare-agent test jacoco:report
 
       - name: Generate Jacoco Badge
         id: jacoco
