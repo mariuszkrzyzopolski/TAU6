@@ -19,7 +19,7 @@ jobs:
       - name: Build with Maven
         run: mvn -B package --file zad4/pom.xml
       - name: Generate JaCoCo test report
-        run: mvn org.jacoco:jacoco-maven-plugin:prepare-agent test jacoco:report
+        run: mvn org.jacoco:jacoco-maven-plugin:prepare-agent test jacoco:report --file zad4/pom.xml
 
       - name: Generate Jacoco Badge
         id: jacoco
