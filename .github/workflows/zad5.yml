@@ -19,4 +19,3 @@ jobs:
         with:
           arguments: build
           build-root-directory: /home/runner/work/TAU6/zad5
-          gradle-executable: /home/runner/work/TAU6/zad5/gradlew
